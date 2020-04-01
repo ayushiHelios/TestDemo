@@ -17,7 +17,7 @@ public class AddPrimaryContact implements Queueable {
     }
             if(c1.size()>0)
         System.debug('c1: '+c1);
-
     insert c1;
+    System.System.debug('Test');
     }
 }
