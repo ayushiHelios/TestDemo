@@ -1,0 +1,7 @@
+<apex:page controller="ContinuationSOAPController" showChat="false" showHeader="false" action="{!startRequest}">    
+    <apex:form >     
+        <!-- Invokes the action method when the user clicks this button. -->
+        <apex:commandButton value="Start Request" reRender="result"/> 
+    </apex:form>
+    <apex:outputText id="result" value="{!result}"/>
+</apex:page>
